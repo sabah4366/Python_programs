@@ -1,0 +1,5 @@
+f1=open('/home/sabah/PycharmProjects/luminar1/day24/file_opening/fil_5.txt')
+lt=f1.read(5)
+print(lt)
+print(len(lt))
+f1.close()
